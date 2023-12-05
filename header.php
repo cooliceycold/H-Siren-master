@@ -114,6 +114,19 @@
             <?php get_template_part('layouts/imgbox'); ?>
         </div>
     <?php } ?>
+	    
+<!-- 图片放大 -->
+<script>
+function initImg() {
+    if (screen && screen.width > 860) {
+        var zooming = new Zooming({
+            defaultZoomable: '.entry-content img',
+            bgColor: 'rgba(0, 0, 0, .7)'
+        })
+    }
+}
+</script>
+	
 <!-- 点击爆炸 -->
 <script src="https://fastly.jsdelivr.net/npm/animejs@2.2.0/anime.min.js"></script>
 <!-- 石蒜 -->
