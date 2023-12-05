@@ -129,6 +129,7 @@ function initImg() {
 	
 <!-- 点击爆炸 -->
 <script src="https://fastly.jsdelivr.net/npm/animejs@2.2.0/anime.min.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/zooming@1.5.0/build/zooming.min.js"></script>
 <!-- 石蒜 -->
 <div class="sakana-box"></div>
 <script src="https://fastly.jsdelivr.net/npm/sakana"></script>
