@@ -114,7 +114,15 @@
             <?php get_template_part('layouts/imgbox'); ?>
         </div>
     <?php } ?>
-	    
+<style>
+	.search-form.is-visible {
+    visibility: visible;
+    opacity: .98;
+    animation: elastic .5s;
+    background-image: url('<?php echo get_random_bg_url(); ?>');
+    background-size: cover;
+}
+</style>		    
 <!-- 图片放大 -->
 <script>
 function initImg() {
