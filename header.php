@@ -68,10 +68,10 @@
         <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/inc/css/shuoshuo.css"/>
     <?php } ?>
     <?php if (akina_option('picture_m') == 'single') { ?>
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/zooming@1.5.0/build/zooming.min.js"></script>
+        <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/zooming@1.5.0/build/zooming.min.js"></script>
     <?php } ?>
     <?php if (akina_option('laziness_img') != '0') { ?>
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-beta.2/lazyload.min.js"></script>
+        <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/lazyload@2.0.0-beta.2/lazyload.min.js"></script>
     <?php } ?>
     <?php wp_head(); ?>
     <?php if (akina_option('google_analytics_1')) { ?>
