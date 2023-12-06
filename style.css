@@ -3697,7 +3697,7 @@ i.iconfont.js-toggle-search.iconsearch {
     visibility: visible;
     opacity: .98;
     animation: elastic .5s;
-    background:url('<?php echo get_random_bg_url(); ?>');
+    background:url();
     background-size: cover;
 }
 
