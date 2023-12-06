@@ -98,7 +98,7 @@
 <?php } ?>
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/OwO/meme.js"></script>
 <?php if (akina_option('click_effect') == 'click' || akina_option('click_effect') == 'all') { ?>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/animejs@2.2.0/anime.min.js"></script>
+    <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/animejs@2.2.0/anime.min.js"></script>
     <script type="text/javascript">
         if (screen && screen.width > 860) {
             document.write('<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/fireworks.js"><\/script>');
