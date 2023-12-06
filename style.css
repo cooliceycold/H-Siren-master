@@ -3697,7 +3697,7 @@ i.iconfont.js-toggle-search.iconsearch {
     visibility: visible;
     opacity: .98;
     animation: elastic .5s;
-    background:url(https://asjk.cf/wp-content/themes/H-Siren-master/images/custom/default/pic_04.png);
+    background:url('<?php echo get_random_bg_url(); ?>');
     background-size: cover;
 }
 
